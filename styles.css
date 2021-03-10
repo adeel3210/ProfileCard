@@ -15,19 +15,18 @@ body{
 
 #top-circle{
     position: absolute;
-    top: -520px;
-    width: 52.5%;
-    left:1px;
+    top: -530px;
+    width: 60%;
+    left: -185px;
 }
 
-#bottom-circle{
-    background-image: url(./images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
+#bottom-circle{ 
     position: absolute;
-    top:440px;
-    left:1000px;
-   
-    
+    top:400px;
+    left:980px;
+    opacity: 0.6;
+    width: 60%;
+ 
 }
 
 .card{
@@ -128,7 +127,6 @@ body{
     position: relative;
     top: 76px;
     left: 34px;
-    
     color: Dark gray: hsl(0, 0%, 59%);
     font-size: 12px;
     letter-spacing: 1.8px;
